@@ -1,19 +1,17 @@
 body {
-  min-width: 200px;
-  height: 188px;
-  background-color: #ffffff;
+  min-width: 344px;
+  min-width: 188px;
+  background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  border-color: grey;
-  border-width: 5px;
-  border-style: solid;
+  padding: 1rem;
 }
 h1 {
   font-size: 1.5rem;
   text-align: center;
 }
 .yellow {
-  color: FBE36D;
+  color: #fbe36d;
 }
 p {
   font-size: 0.75rem;
@@ -29,7 +27,7 @@ p {
 }
 .half {
   position: absolute;
-  width: 50%;
+  width: 45%;
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
@@ -41,11 +39,11 @@ p {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  background-color: #c8a702;
+  background-color: rgb(255, 213, 0);
   pointer-events: none;
   transition: 1s;
 }
-@keyframes transformtoblue {
+@keyframes transformToBlue {
   0% {
     background-color: #fdfca3;
   }
@@ -53,7 +51,7 @@ p {
     background-color: #8abff0;
   }
 }
-@keyframes transformtoyellow {
+@keyframes transformToYellow {
   0% {
     background-color: #8abff0;
   }
@@ -61,8 +59,7 @@ p {
     background-color: #fdfca3;
   }
 }
-
-@keyframes movecircleright {
+@keyframes moveCircleRight {
   0% {
     left: 0;
     transform: translateX(0);
@@ -70,19 +67,18 @@ p {
   }
   100% {
     left: 100%;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     background-color: #588be4;
   }
 }
-
-@keyframes movecircleleft {
+@keyframes moveCircleLeft {
   0% {
-    left: 0;
-    transform: translateX(100%);
+    left: 100%;
+    transform: translateX(-100%);
     background-color: #588be4;
   }
   100% {
-    left: 100%;
+    left: 0;
     transform: translateX(0);
     background-color: rgb(255, 213, 0);
   }
