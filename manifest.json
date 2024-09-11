@@ -11,5 +11,6 @@
     "default_file": "Appearence",
     "default_popup": "popup.html"
   },
-  "permissions": ["https://*/*", "http://*/*", "tabs"]
+  "permissions": ["https://*/*", "http://*/*", "tabs"],
+  "author": "Ayush Poudel"
 }
